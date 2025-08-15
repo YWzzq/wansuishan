@@ -8,7 +8,7 @@ import { getDatabase, ref, set, update, onValue, get, serverTimestamp } from "ht
 const firebaseConfig = {
   apiKey: "AIzaSyAxfI5QuHkWsH4gFm5dCwNIdnEWEBM-uQ0",
   authDomain: "wansuishan-c0663.firebaseapp.com",
-  databaseURL: "https://wansuishan-c0663-default-rtdb.asia-southeast1.firebasedatabase.app",
+  databaseURL: "https://wansuishan-c0663-default-rtdb.asia-southeast1.firebasedatabase.app/",
   projectId: "wansuishan-c0663",
   storageBucket: "wansuishan-c0663.firebasestorage.app",
   messagingSenderId: "970889063832",
