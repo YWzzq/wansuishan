@@ -4,14 +4,18 @@ import { getAuth, signInWithEmailAndPassword, createUserWithEmailAndPassword, si
 import { getDatabase, ref, set, update, onValue, get, serverTimestamp } from "https://www.gstatic.com/firebasejs/12.1.0/firebase-database.js";
 
 // Firebase配置
+// Firebase配置
 const firebaseConfig = {
   apiKey: "AIzaSyAxfI5QuHkWsH4gFm5dCwNIdnEWEBM-uQ0",
   authDomain: "wansuishan-c0663.firebaseapp.com",
+  databaseURL: "https://wansuishan-c0663-default-rtdb.asia-southeast1.firebasedatabase.app",
   projectId: "wansuishan-c0663",
   storageBucket: "wansuishan-c0663.firebasestorage.app",
   messagingSenderId: "970889063832",
-  appId: "1:970889063832:web:938587550b5f965c320fed"
+  appId: "1:970889063832:web:938587550b5f965c320fed",
+  measurementId: "G-F8FTY8R928"
 };
+
 
 // Initialize Firebase
 const app = initializeApp(firebaseConfig);
